@@ -21,7 +21,7 @@ body {
 }
 
 .calc-button {
-    background-color: gray;
+    background-color:#d8d9db;
     color: black;
     height: 100px;
     width: 24.5%;
@@ -32,15 +32,25 @@ body {
 }
 
 .calc-button:hover {
-    background-color: lightgray;
+    background-color: #ebebeb;
 }
 
 .calc-button:active {
-    background-color: yellow;
+    background-color: #bbbcbe;
 }
 
 .calc-button:last-child {
+    background-color: #6666ff;
     color: white;
+}
+
+.calc-button:last-child:hover {
+    background-color: #9999ff;
+
+}
+
+.calc-button:active:last-child {
+    background-color: #4d4dff;
 }
 
 .double {
